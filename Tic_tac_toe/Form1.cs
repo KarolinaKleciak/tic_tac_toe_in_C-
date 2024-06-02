@@ -31,15 +31,15 @@ namespace Tic_tac_toe
             this.enableAllButtons();
             this.switchColorButtons();
           
-            button4.Text = "";
-            button5.Text = "";
-            button6.Text = "";
-            button7.Text = "";
-            button8.Text = "";
-            button9.Text = "";
-            button10.Text = "";
-            button11.Text = "";
-            button12.Text = "";
+            ticTacToeButton1.Text = "";
+            ticTacToeButton2.Text = "";
+            ticTacToeButton3.Text = "";
+            ticTacToeButton4.Text = "";
+            ticTacToeButton5.Text = "";
+            ticTacToeButton6.Text = "";
+            ticTacToeButton7.Text = "";
+            ticTacToeButton8.Text = "";
+            ticTacToeButton9.Text = "";
         }
         private void buttonReset_Click(object sender, EventArgs e)
         {
@@ -49,128 +49,128 @@ namespace Tic_tac_toe
             this.enableAllButtons();
             this.switchColorButtons();
 
-            button4.Text = "";
-            button5.Text = "";
-            button6.Text = "";
-            button7.Text = "";
-            button8.Text = "";
-            button9.Text = "";
-            button10.Text = "";
-            button11.Text = "";
-            button12.Text = "";
+            ticTacToeButton1.Text = "";
+            ticTacToeButton2.Text = "";
+            ticTacToeButton3.Text = "";
+            ticTacToeButton4.Text = "";
+            ticTacToeButton5.Text = "";
+            ticTacToeButton6.Text = "";
+            ticTacToeButton7.Text = "";
+            ticTacToeButton8.Text = "";
+            ticTacToeButton9.Text = "";
         }
         private void enableAllButtons()
         {
-            button4.Enabled = true;
-            button5.Enabled = true;
-            button6.Enabled = true;
-            button7.Enabled = true;
-            button8.Enabled = true;
-            button9.Enabled = true;
-            button10.Enabled = true;
-            button11.Enabled = true;
-            button12.Enabled = true;
+            ticTacToeButton1.Enabled = true;
+            ticTacToeButton2.Enabled = true;
+            ticTacToeButton3.Enabled = true;
+            ticTacToeButton4.Enabled = true;
+            ticTacToeButton5.Enabled = true;
+            ticTacToeButton6.Enabled = true;
+            ticTacToeButton7.Enabled = true;
+            ticTacToeButton8.Enabled = true;
+            ticTacToeButton9.Enabled = true;
         }
         private void disableAllButtons()
         {
-            button4.Enabled = false;
-            button5.Enabled = false;
-            button6.Enabled = false;
-            button7.Enabled = false;
-            button8.Enabled = false;
-            button9.Enabled = false;
-            button10.Enabled = false;
-            button11.Enabled = false;
-            button12.Enabled = false;
+            ticTacToeButton1.Enabled = false;
+            ticTacToeButton2.Enabled = false;
+            ticTacToeButton3.Enabled = false;
+            ticTacToeButton4.Enabled = false;
+            ticTacToeButton5.Enabled = false;
+            ticTacToeButton6.Enabled = false;
+            ticTacToeButton7.Enabled = false;
+            ticTacToeButton8.Enabled = false;
+            ticTacToeButton9.Enabled = false;
         }
         private void switchColorButtons()
         {
-            button4.BackColor = Color.WhiteSmoke;
-            button5.BackColor = Color.WhiteSmoke;
-            button6.BackColor = Color.WhiteSmoke;
-            button7.BackColor = Color.WhiteSmoke;
-            button8.BackColor = Color.WhiteSmoke;
-            button9.BackColor = Color.WhiteSmoke;
-            button10.BackColor = Color.WhiteSmoke;
-            button11.BackColor = Color.WhiteSmoke;
-            button12.BackColor = Color.WhiteSmoke;
+            ticTacToeButton1.BackColor = Color.WhiteSmoke;
+            ticTacToeButton2.BackColor = Color.WhiteSmoke;
+            ticTacToeButton3.BackColor = Color.WhiteSmoke;
+            ticTacToeButton4.BackColor = Color.WhiteSmoke;
+            ticTacToeButton5.BackColor = Color.WhiteSmoke;
+            ticTacToeButton6.BackColor = Color.WhiteSmoke;
+            ticTacToeButton7.BackColor = Color.WhiteSmoke;
+            ticTacToeButton8.BackColor = Color.WhiteSmoke;
+            ticTacToeButton9.BackColor = Color.WhiteSmoke;
         }
         private bool checkWin()
         {
-            if ((button4.Text == button5.Text) && (button5.Text == button6.Text) && (button4.Text != ""))
+            if ((ticTacToeButton1.Text == ticTacToeButton2.Text) && (ticTacToeButton2.Text == ticTacToeButton3.Text) && (ticTacToeButton1.Text != ""))
             {
-                this.makeWinButtons(button4, button5, button6);
-                if (((button4.Text == "X") && (button5.Text == "X") && (button6.Text == "X")) || ((button4.Text == "O") && (button5.Text == "O") && (button6.Text == "O")))
+                this.makeWinButtons(ticTacToeButton1, ticTacToeButton2, ticTacToeButton3);
+                if (((ticTacToeButton1.Text == "X") && (ticTacToeButton2.Text == "X") && (ticTacToeButton3.Text == "X")) || ((ticTacToeButton1.Text == "O") && (ticTacToeButton2.Text == "O") && (ticTacToeButton3.Text == "O")))
                 {
                     this.winnerMessageBox();
                     this.disableAllButtons();
                     return true;
                 }
             }
-            else if ((button8.Text == button7.Text) && (button7.Text == button9.Text) && (button8.Text != ""))
+            else if ((ticTacToeButton5.Text == ticTacToeButton4.Text) && (ticTacToeButton4.Text == ticTacToeButton6.Text) && (ticTacToeButton5.Text != ""))
             {
-                this.makeWinButtons(button8, button7, button9);
-                if (((button8.Text == "X") && (button7.Text == "X") && (button9.Text == "X")) || ((button8.Text == "O") && (button7.Text == "O") && (button9.Text == "O")))
+                this.makeWinButtons(ticTacToeButton5, ticTacToeButton4, ticTacToeButton6);
+                if (((ticTacToeButton5.Text == "X") && (ticTacToeButton4.Text == "X") && (ticTacToeButton6.Text == "X")) || ((ticTacToeButton5.Text == "O") && (ticTacToeButton4.Text == "O") && (ticTacToeButton6.Text == "O")))
                 {
                     this.winnerMessageBox();
                     this.disableAllButtons();
                     return true;
                 }
             }
-            else if ((button10.Text == button11.Text) && (button11.Text == button12.Text) && (button10.Text != ""))
+            else if ((ticTacToeButton7.Text == ticTacToeButton8.Text) && (ticTacToeButton8.Text == ticTacToeButton9.Text) && (ticTacToeButton7.Text != ""))
             {
-                this.makeWinButtons(button10, button11, button12);
-                if (((button10.Text == "X") && (button11.Text == "X") && (button12.Text == "X")) || ((button10.Text == "O") && (button11.Text == "O") && (button12.Text == "O")))
+                this.makeWinButtons(ticTacToeButton7, ticTacToeButton8, ticTacToeButton9);
+                if (((ticTacToeButton7.Text == "X") && (ticTacToeButton8.Text == "X") && (ticTacToeButton9.Text == "X")) || ((ticTacToeButton7.Text == "O") && (ticTacToeButton8.Text == "O") && (ticTacToeButton9.Text == "O")))
                 {
                     this.winnerMessageBox();
                     this.disableAllButtons();
                     return true;
                 }
             }
-            else if ((button4.Text == button8.Text) && (button8.Text == button10.Text) && (button4.Text != ""))
+            else if ((ticTacToeButton1.Text == ticTacToeButton5.Text) && (ticTacToeButton5.Text == ticTacToeButton7.Text) && (ticTacToeButton1.Text != ""))
             {
-                this.makeWinButtons(button4, button8, button10);
-                if (((button4.Text == "X") && (button8.Text == "X") && (button10.Text == "X")) || ((button4.Text == "O") && (button8.Text == "O") && (button10.Text == "O")))
+                this.makeWinButtons(ticTacToeButton1, ticTacToeButton5, ticTacToeButton7);
+                if (((ticTacToeButton1.Text == "X") && (ticTacToeButton5.Text == "X") && (ticTacToeButton7.Text == "X")) || ((ticTacToeButton1.Text == "O") && (ticTacToeButton5.Text == "O") && (ticTacToeButton7.Text == "O")))
                 {
                     this.winnerMessageBox();
                     this.disableAllButtons();
                     return true;
                 }
             }
-            else if ((button5.Text == button7.Text) && (button7.Text == button11.Text) && (button5.Text != ""))
+            else if ((ticTacToeButton2.Text == ticTacToeButton4.Text) && (ticTacToeButton4.Text == ticTacToeButton8.Text) && (ticTacToeButton2.Text != ""))
             {
-                this.makeWinButtons(button5, button7, button11);
-                if (((button5.Text == "X") && (button7.Text == "X") && (button11.Text == "X")) || ((button6.Text == "O") && (button7.Text == "O") && (button11.Text == "O")))
+                this.makeWinButtons(ticTacToeButton2, ticTacToeButton4, ticTacToeButton8);
+                if (((ticTacToeButton2.Text == "X") && (ticTacToeButton4.Text == "X") && (ticTacToeButton8.Text == "X")) || ((ticTacToeButton3.Text == "O") && (ticTacToeButton4.Text == "O") && (ticTacToeButton8.Text == "O")))
                 {
                     this.winnerMessageBox();
                     this.disableAllButtons();
                     return true;
                 }
             }
-            else if ((button6.Text == button9.Text) && ( button9.Text == button12.Text) && (button6.Text != ""))
+            else if ((ticTacToeButton3.Text == ticTacToeButton6.Text) && ( ticTacToeButton6.Text == ticTacToeButton9.Text) && (ticTacToeButton3.Text != ""))
             {
-                this.makeWinButtons(button6, button9, button12);
-                if (((button6.Text == "X") && (button9.Text == "X") && (button12.Text == "X")) || ((button6.Text == "O") && (button9.Text == "O") && (button12.Text == "O")))
+                this.makeWinButtons(ticTacToeButton3, ticTacToeButton6, ticTacToeButton9);
+                if (((ticTacToeButton3.Text == "X") && (ticTacToeButton6.Text == "X") && (ticTacToeButton9.Text == "X")) || ((ticTacToeButton3.Text == "O") && (ticTacToeButton6.Text == "O") && (ticTacToeButton9.Text == "O")))
                 {
                     this.winnerMessageBox();
                     this.disableAllButtons();
                     return true;
                 }
             }
-            else if ((button4.Text == button7.Text) && (button7.Text == button12.Text) && (button4.Text != ""))
+            else if ((ticTacToeButton1.Text == ticTacToeButton4.Text) && (ticTacToeButton4.Text == ticTacToeButton9.Text) && (ticTacToeButton1.Text != ""))
             {
-                this.makeWinButtons(button4, button7, button12);
-                if (((button4.Text == "X") && (button7.Text == "X") && (button12.Text == "X")) || ((button4.Text == "O") && (button7.Text == "O") && (button12.Text == "O")))
+                this.makeWinButtons(ticTacToeButton1, ticTacToeButton4, ticTacToeButton9);
+                if (((ticTacToeButton1.Text == "X") && (ticTacToeButton4.Text == "X") && (ticTacToeButton9.Text == "X")) || ((ticTacToeButton1.Text == "O") && (ticTacToeButton4.Text == "O") && (ticTacToeButton9.Text == "O")))
                 {
                     this.winnerMessageBox();
                     this.disableAllButtons();
                     return true;
                 }
             }
-            else if ((button6.Text == button7.Text) && (button7.Text == button10.Text) && (button6.Text != ""))
+            else if ((ticTacToeButton3.Text == ticTacToeButton4.Text) && (ticTacToeButton4.Text == ticTacToeButton7.Text) && (ticTacToeButton3.Text != ""))
             {
-                this.makeWinButtons(button6, button7, button10);
-                if (((button6.Text == "X") && (button7.Text == "X") && (button10.Text == "X")) || ((button6.Text == "O") && (button7.Text == "O") && (button10.Text == "O")))
+                this.makeWinButtons(ticTacToeButton3, ticTacToeButton4, ticTacToeButton7);
+                if (((ticTacToeButton3.Text == "X") && (ticTacToeButton4.Text == "X") && (ticTacToeButton7.Text == "X")) || ((ticTacToeButton3.Text == "O") && (ticTacToeButton4.Text == "O") && (ticTacToeButton7.Text == "O")))
                 {
                     this.winnerMessageBox();
                     this.disableAllButtons();
@@ -187,15 +187,15 @@ namespace Tic_tac_toe
         }
         private void makeDrawButtons()
         {
-            button4.BackColor = Color.DarkRed;
-            button5.BackColor = Color.DarkRed;
-            button6.BackColor = Color.DarkRed;
-            button7.BackColor = Color.DarkRed;
-            button8.BackColor = Color.DarkRed;
-            button9.BackColor = Color.DarkRed;
-            button10.BackColor = Color.DarkRed;
-            button11.BackColor = Color.DarkRed;
-            button12.BackColor = Color.DarkRed;
+            ticTacToeButton1.BackColor = Color.DarkRed;
+            ticTacToeButton2.BackColor = Color.DarkRed;
+            ticTacToeButton3.BackColor = Color.DarkRed;
+            ticTacToeButton4.BackColor = Color.DarkRed;
+            ticTacToeButton5.BackColor = Color.DarkRed;
+            ticTacToeButton6.BackColor = Color.DarkRed;
+            ticTacToeButton7.BackColor = Color.DarkRed;
+            ticTacToeButton8.BackColor = Color.DarkRed;
+            ticTacToeButton9.BackColor = Color.DarkRed;
         }
         private void winnerMessageBox()
         {
@@ -207,7 +207,7 @@ namespace Tic_tac_toe
         }
         private void checkDeaw()
         {
-            if ((button4.Text != "") && (button5.Text != "") && (button6.Text != "") && (button6.Text != "") && (button7.Text != "") && (button8.Text != "") && (button9.Text != "") && (button10.Text != "") && (button11.Text != "") && (button12.Text != ""))
+            if ((ticTacToeButton1.Text != "") && (ticTacToeButton2.Text != "") && (ticTacToeButton3.Text != "") && (ticTacToeButton3.Text != "") && (ticTacToeButton4.Text != "") && (ticTacToeButton5.Text != "") && (ticTacToeButton6.Text != "") && (ticTacToeButton7.Text != "") && (ticTacToeButton8.Text != "") && (ticTacToeButton9.Text != ""))
             {
                 this.makeDrawButtons();
                 this.drawMessageBox();

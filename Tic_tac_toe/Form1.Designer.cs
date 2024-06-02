@@ -31,15 +31,15 @@
             panel1 = new Panel();
             label1 = new Label();
             panel2 = new Panel();
-            button12 = new Button();
-            button11 = new Button();
-            button10 = new Button();
-            button9 = new Button();
-            button8 = new Button();
-            button7 = new Button();
-            button6 = new Button();
-            button5 = new Button();
-            button4 = new Button();
+            ticTacToeButton9 = new Button();
+            ticTacToeButton8 = new Button();
+            ticTacToeButton7 = new Button();
+            ticTacToeButton6 = new Button();
+            ticTacToeButton5 = new Button();
+            ticTacToeButton4 = new Button();
+            ticTacToeButton3 = new Button();
+            ticTacToeButton2 = new Button();
+            ticTacToeButton1 = new Button();
             panel4 = new Panel();
             button2 = new Button();
             panel3 = new Panel();
@@ -76,118 +76,118 @@
             // panel2
             // 
             panel2.BackColor = SystemColors.MenuHighlight;
-            panel2.Controls.Add(button12);
-            panel2.Controls.Add(button11);
-            panel2.Controls.Add(button10);
-            panel2.Controls.Add(button9);
-            panel2.Controls.Add(button8);
-            panel2.Controls.Add(button7);
-            panel2.Controls.Add(button6);
-            panel2.Controls.Add(button5);
-            panel2.Controls.Add(button4);
+            panel2.Controls.Add(ticTacToeButton9);
+            panel2.Controls.Add(ticTacToeButton8);
+            panel2.Controls.Add(ticTacToeButton7);
+            panel2.Controls.Add(ticTacToeButton6);
+            panel2.Controls.Add(ticTacToeButton5);
+            panel2.Controls.Add(ticTacToeButton4);
+            panel2.Controls.Add(ticTacToeButton3);
+            panel2.Controls.Add(ticTacToeButton2);
+            panel2.Controls.Add(ticTacToeButton1);
             panel2.Location = new Point(550, 131);
             panel2.Name = "panel2";
             panel2.Size = new Size(716, 667);
             panel2.TabIndex = 1;
             // 
-            // button12
+            // ticTacToeButton9
             // 
-            button12.Enabled = false;
-            button12.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
-            button12.Location = new Point(488, 448);
-            button12.Name = "button12";
-            button12.Size = new Size(201, 184);
-            button12.TabIndex = 11;
-            button12.UseVisualStyleBackColor = true;
-            button12.Click += tictacbutton_Click;
+            ticTacToeButton9.Enabled = false;
+            ticTacToeButton9.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
+            ticTacToeButton9.Location = new Point(488, 448);
+            ticTacToeButton9.Name = "ticTacToeButton9";
+            ticTacToeButton9.Size = new Size(201, 184);
+            ticTacToeButton9.TabIndex = 11;
+            ticTacToeButton9.UseVisualStyleBackColor = true;
+            ticTacToeButton9.Click += tictacbutton_Click;
             // 
-            // button11
+            // ticTacToeButton8
             // 
-            button11.Enabled = false;
-            button11.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
-            button11.Location = new Point(254, 448);
-            button11.Name = "button11";
-            button11.Size = new Size(201, 184);
-            button11.TabIndex = 10;
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += tictacbutton_Click;
+            ticTacToeButton8.Enabled = false;
+            ticTacToeButton8.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
+            ticTacToeButton8.Location = new Point(254, 448);
+            ticTacToeButton8.Name = "ticTacToeButton8";
+            ticTacToeButton8.Size = new Size(201, 184);
+            ticTacToeButton8.TabIndex = 10;
+            ticTacToeButton8.UseVisualStyleBackColor = true;
+            ticTacToeButton8.Click += tictacbutton_Click;
             // 
-            // button10
+            // ticTacToeButton7
             // 
-            button10.Enabled = false;
-            button10.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
-            button10.Location = new Point(21, 445);
-            button10.Name = "button10";
-            button10.Size = new Size(201, 184);
-            button10.TabIndex = 9;
-            button10.UseVisualStyleBackColor = true;
-            button10.Click += tictacbutton_Click;
+            ticTacToeButton7.Enabled = false;
+            ticTacToeButton7.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
+            ticTacToeButton7.Location = new Point(21, 445);
+            ticTacToeButton7.Name = "ticTacToeButton7";
+            ticTacToeButton7.Size = new Size(201, 184);
+            ticTacToeButton7.TabIndex = 9;
+            ticTacToeButton7.UseVisualStyleBackColor = true;
+            ticTacToeButton7.Click += tictacbutton_Click;
             // 
-            // button9
+            // ticTacToeButton6
             // 
-            button9.Enabled = false;
-            button9.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
-            button9.Location = new Point(488, 242);
-            button9.Name = "button9";
-            button9.Size = new Size(201, 184);
-            button9.TabIndex = 8;
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += tictacbutton_Click;
+            ticTacToeButton6.Enabled = false;
+            ticTacToeButton6.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
+            ticTacToeButton6.Location = new Point(488, 242);
+            ticTacToeButton6.Name = "ticTacToeButton6";
+            ticTacToeButton6.Size = new Size(201, 184);
+            ticTacToeButton6.TabIndex = 8;
+            ticTacToeButton6.UseVisualStyleBackColor = true;
+            ticTacToeButton6.Click += tictacbutton_Click;
             // 
-            // button8
+            // ticTacToeButton5
             // 
-            button8.Enabled = false;
-            button8.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
-            button8.Location = new Point(21, 242);
-            button8.Name = "button8";
-            button8.Size = new Size(201, 184);
-            button8.TabIndex = 7;
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += tictacbutton_Click;
+            ticTacToeButton5.Enabled = false;
+            ticTacToeButton5.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
+            ticTacToeButton5.Location = new Point(21, 242);
+            ticTacToeButton5.Name = "ticTacToeButton5";
+            ticTacToeButton5.Size = new Size(201, 184);
+            ticTacToeButton5.TabIndex = 7;
+            ticTacToeButton5.UseVisualStyleBackColor = true;
+            ticTacToeButton5.Click += tictacbutton_Click;
             // 
-            // button7
+            // ticTacToeButton4
             // 
-            button7.Enabled = false;
-            button7.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
-            button7.Location = new Point(254, 242);
-            button7.Name = "button7";
-            button7.Size = new Size(201, 184);
-            button7.TabIndex = 6;
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += tictacbutton_Click;
+            ticTacToeButton4.Enabled = false;
+            ticTacToeButton4.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
+            ticTacToeButton4.Location = new Point(254, 242);
+            ticTacToeButton4.Name = "ticTacToeButton4";
+            ticTacToeButton4.Size = new Size(201, 184);
+            ticTacToeButton4.TabIndex = 6;
+            ticTacToeButton4.UseVisualStyleBackColor = true;
+            ticTacToeButton4.Click += tictacbutton_Click;
             // 
-            // button6
+            // ticTacToeButton3
             // 
-            button6.Enabled = false;
-            button6.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
-            button6.Location = new Point(488, 33);
-            button6.Name = "button6";
-            button6.Size = new Size(201, 184);
-            button6.TabIndex = 5;
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += tictacbutton_Click;
+            ticTacToeButton3.Enabled = false;
+            ticTacToeButton3.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
+            ticTacToeButton3.Location = new Point(488, 33);
+            ticTacToeButton3.Name = "ticTacToeButton3";
+            ticTacToeButton3.Size = new Size(201, 184);
+            ticTacToeButton3.TabIndex = 5;
+            ticTacToeButton3.UseVisualStyleBackColor = true;
+            ticTacToeButton3.Click += tictacbutton_Click;
             // 
-            // button5
+            // ticTacToeButton2
             // 
-            button5.Enabled = false;
-            button5.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
-            button5.Location = new Point(254, 33);
-            button5.Name = "button5";
-            button5.Size = new Size(201, 184);
-            button5.TabIndex = 4;
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += tictacbutton_Click;
+            ticTacToeButton2.Enabled = false;
+            ticTacToeButton2.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
+            ticTacToeButton2.Location = new Point(254, 33);
+            ticTacToeButton2.Name = "ticTacToeButton2";
+            ticTacToeButton2.Size = new Size(201, 184);
+            ticTacToeButton2.TabIndex = 4;
+            ticTacToeButton2.UseVisualStyleBackColor = true;
+            ticTacToeButton2.Click += tictacbutton_Click;
             // 
-            // button4
+            // ticTacToeButton1
             // 
-            button4.Enabled = false;
-            button4.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
-            button4.Location = new Point(21, 33);
-            button4.Name = "button4";
-            button4.Size = new Size(201, 184);
-            button4.TabIndex = 3;
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += tictacbutton_Click;
+            ticTacToeButton1.Enabled = false;
+            ticTacToeButton1.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
+            ticTacToeButton1.Location = new Point(21, 33);
+            ticTacToeButton1.Name = "ticTacToeButton1";
+            ticTacToeButton1.Size = new Size(201, 184);
+            ticTacToeButton1.TabIndex = 3;
+            ticTacToeButton1.UseVisualStyleBackColor = true;
+            ticTacToeButton1.Click += tictacbutton_Click;
             // 
             // panel4
             // 
@@ -251,16 +251,21 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(144F, 144F);
+            AutoScaleMode = AutoScaleMode.Dpi;
+            AutoSize = true;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(1278, 810);
+            ClientSize = new Size(1277, 810);
             Controls.Add(panel5);
             Controls.Add(panel3);
             Controls.Add(panel4);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "TIC TAC TOE";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -275,19 +280,19 @@
 
         private Panel panel1;
         private Panel panel2;
-        private Button button4;
+        private Button ticTacToeButton1;
         private Panel panel4;
         private Panel panel3;
         private Button button1;
         private Panel panel5;
-        private Button button12;
-        private Button button11;
-        private Button button10;
-        private Button button9;
-        private Button button8;
-        private Button button7;
-        private Button button6;
-        private Button button5;
+        private Button ticTacToeButton9;
+        private Button ticTacToeButton8;
+        private Button ticTacToeButton7;
+        private Button ticTacToeButton6;
+        private Button ticTacToeButton5;
+        private Button ticTacToeButton4;
+        private Button ticTacToeButton3;
+        private Button ticTacToeButton2;
         private Button button2;
         private Label label1;
         private Button reset;
