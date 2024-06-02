@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{B207FE81-F417-4DE3-BB29-5E0548192551}|Tic_tac_toe\\Tic_tac_toe.csproj|solutionrelative:tic_tac_toe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B207FE81-F417-4DE3-BB29-5E0548192551}|Tic_tac_toe\\Tic_tac_toe.csproj|D:\\Job_documents\\Tic_tac_toe\\Tic_tac_toe\\tic_tac_toe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B207FE81-F417-4DE3-BB29-5E0548192551}|Tic_tac_toe\\Tic_tac_toe.csproj|solutionrelative:tic_tac_toe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B207FE81-F417-4DE3-BB29-5E0548192551}|Tic_tac_toe\\Tic_tac_toe.csproj|d:\\job_documents\\tic_tac_toe\\tic_tac_toe\\tic_tac_toe\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B207FE81-F417-4DE3-BB29-5E0548192551}|Tic_tac_toe\\Tic_tac_toe.csproj|solutionrelative:tic_tac_toe\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B207FE81-F417-4DE3-BB29-5E0548192551}|Tic_tac_toe\\Tic_tac_toe.csproj|D:\\Job_documents\\Tic_tac_toe\\Tic_tac_toe\\tic_tac_toe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B207FE81-F417-4DE3-BB29-5E0548192551}|Tic_tac_toe\\Tic_tac_toe.csproj|solutionrelative:tic_tac_toe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B207FE81-F417-4DE3-BB29-5E0548192551}|Tic_tac_toe\\Tic_tac_toe.csproj|d:\\job_documents\\tic_tac_toe\\tic_tac_toe\\tic_tac_toe\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,13 +38,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Controller.cs",
               "DocumentMoniker": "D:\\Job_documents\\Tic_tac_toe\\Tic_tac_toe\\Tic_tac_toe\\Controller.cs",
               "RelativeDocumentMoniker": "Tic_tac_toe\\Controller.cs",
               "ToolTip": "D:\\Job_documents\\Tic_tac_toe\\Tic_tac_toe\\Tic_tac_toe\\Controller.cs",
               "RelativeToolTip": "Tic_tac_toe\\Controller.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAswDsAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T11:40:22.396Z",
               "EditorCaption": ""
@@ -57,14 +57,14 @@
               "RelativeDocumentMoniker": "Tic_tac_toe\\Form1.cs",
               "ToolTip": "D:\\Job_documents\\Tic_tac_toe\\Tic_tac_toe\\Tic_tac_toe\\Form1.cs",
               "RelativeToolTip": "Tic_tac_toe\\Form1.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAG0AAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAM4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-01T13:43:36.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Job_documents\\Tic_tac_toe\\Tic_tac_toe\\Tic_tac_toe\\Form1.cs",
               "RelativeDocumentMoniker": "Tic_tac_toe\\Form1.cs",

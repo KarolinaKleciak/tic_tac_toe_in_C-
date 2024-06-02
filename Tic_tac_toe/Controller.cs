@@ -8,10 +8,8 @@ namespace Tic_tac_toe
 {
     internal class Controller
     {
-
         public int playerId {  get; set; }
         public int initialPlayerId { get; set; }
-
         public Controller() { }
 
         public int randomPlayer() 
@@ -59,7 +57,6 @@ namespace Tic_tac_toe
             }
         }
 
-
         public String getInitialPlayerSign()
         {
             if (this.initialPlayerId == 0)
@@ -71,18 +68,5 @@ namespace Tic_tac_toe
                 return "X";
             }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
