@@ -92,6 +92,7 @@
             // 
             // button12
             // 
+            button12.Enabled = false;
             button12.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
             button12.Location = new Point(488, 448);
             button12.Name = "button12";
@@ -102,6 +103,7 @@
             // 
             // button11
             // 
+            button11.Enabled = false;
             button11.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
             button11.Location = new Point(254, 448);
             button11.Name = "button11";
@@ -112,6 +114,7 @@
             // 
             // button10
             // 
+            button10.Enabled = false;
             button10.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
             button10.Location = new Point(21, 445);
             button10.Name = "button10";
@@ -122,6 +125,7 @@
             // 
             // button9
             // 
+            button9.Enabled = false;
             button9.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
             button9.Location = new Point(488, 242);
             button9.Name = "button9";
@@ -132,6 +136,7 @@
             // 
             // button8
             // 
+            button8.Enabled = false;
             button8.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
             button8.Location = new Point(21, 242);
             button8.Name = "button8";
@@ -142,6 +147,7 @@
             // 
             // button7
             // 
+            button7.Enabled = false;
             button7.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
             button7.Location = new Point(254, 242);
             button7.Name = "button7";
@@ -152,6 +158,7 @@
             // 
             // button6
             // 
+            button6.Enabled = false;
             button6.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
             button6.Location = new Point(488, 33);
             button6.Name = "button6";
@@ -162,6 +169,7 @@
             // 
             // button5
             // 
+            button5.Enabled = false;
             button5.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
             button5.Location = new Point(254, 33);
             button5.Name = "button5";
@@ -172,6 +180,7 @@
             // 
             // button4
             // 
+            button4.Enabled = false;
             button4.Font = new Font("Segoe UI Black", 36F, FontStyle.Bold);
             button4.Location = new Point(21, 33);
             button4.Name = "button4";
