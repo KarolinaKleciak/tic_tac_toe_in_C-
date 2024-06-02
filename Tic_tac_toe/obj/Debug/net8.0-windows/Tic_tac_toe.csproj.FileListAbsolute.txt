@@ -1,0 +1,16 @@
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\obj\Debug\net8.0-windows\Tic_tac_toe.Form1.resources
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\obj\Debug\net8.0-windows\Tic_tac_toe.csproj.GenerateResource.cache
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\obj\Debug\net8.0-windows\Tic_tac_toe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\obj\Debug\net8.0-windows\Tic_tac_toe.AssemblyInfoInputs.cache
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\obj\Debug\net8.0-windows\Tic_tac_toe.AssemblyInfo.cs
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\obj\Debug\net8.0-windows\Tic_tac_toe.csproj.CoreCompileInputs.cache
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\bin\Debug\net8.0-windows\Tic_tac_toe.exe
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\bin\Debug\net8.0-windows\Tic_tac_toe.deps.json
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\bin\Debug\net8.0-windows\Tic_tac_toe.runtimeconfig.json
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\bin\Debug\net8.0-windows\Tic_tac_toe.dll
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\bin\Debug\net8.0-windows\Tic_tac_toe.pdb
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\obj\Debug\net8.0-windows\Tic_tac_toe.dll
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\obj\Debug\net8.0-windows\refint\Tic_tac_toe.dll
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\obj\Debug\net8.0-windows\Tic_tac_toe.pdb
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\obj\Debug\net8.0-windows\Tic_tac_toe.genruntimeconfig.cache
+D:\Job_documents\Tic_tac_toe\Tic_tac_toe\Tic_tac_toe\obj\Debug\net8.0-windows\ref\Tic_tac_toe.dll
