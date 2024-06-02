@@ -7,6 +7,7 @@ namespace Tic_tac_toe
         {
             InitializeComponent();
             this.controller = new Controller();
+            
         }
         private void tictacbutton_Click(object sender, EventArgs e)
         {
@@ -20,6 +21,7 @@ namespace Tic_tac_toe
             }
 
             this.controller.changePlayer();
+            this.playerButton.Text = this.controller.getPlayerSign();
         }
         private void buttonExit_Click(object sender, EventArgs e)
         {
@@ -30,7 +32,8 @@ namespace Tic_tac_toe
             this.controller.randomPlayer();
             this.enableAllButtons();
             this.switchColorButtons();
-          
+            this.playerButton.Text = controller.getPlayerSign();
+
             ticTacToeButton1.Text = "";
             ticTacToeButton2.Text = "";
             ticTacToeButton3.Text = "";
@@ -43,11 +46,12 @@ namespace Tic_tac_toe
         }
         private void buttonReset_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.MessageBox.Show("Game reset. Start player:  " + this.controller.getInitialPlayerSign());
+            System.Windows.Forms.MessageBox.Show("Game reset. Start player: " + this.controller.getInitialPlayerSign());
 
             this.controller.playerId = this.controller.initialPlayerId;
             this.enableAllButtons();
             this.switchColorButtons();
+            this.playerButton.Text = controller.getPlayerSign();
 
             ticTacToeButton1.Text = "";
             ticTacToeButton2.Text = "";
@@ -140,14 +144,14 @@ namespace Tic_tac_toe
             else if ((ticTacToeButton2.Text == ticTacToeButton4.Text) && (ticTacToeButton4.Text == ticTacToeButton8.Text) && (ticTacToeButton2.Text != ""))
             {
                 this.makeWinButtons(ticTacToeButton2, ticTacToeButton4, ticTacToeButton8);
-                if (((ticTacToeButton2.Text == "X") && (ticTacToeButton4.Text == "X") && (ticTacToeButton8.Text == "X")) || ((ticTacToeButton3.Text == "O") && (ticTacToeButton4.Text == "O") && (ticTacToeButton8.Text == "O")))
+                if (((ticTacToeButton2.Text == "X") && (ticTacToeButton4.Text == "X") && (ticTacToeButton8.Text == "X")) || ((ticTacToeButton2.Text == "O") && (ticTacToeButton4.Text == "O") && (ticTacToeButton8.Text == "O")))
                 {
                     this.winnerMessageBox();
                     this.disableAllButtons();
                     return true;
                 }
             }
-            else if ((ticTacToeButton3.Text == ticTacToeButton6.Text) && ( ticTacToeButton6.Text == ticTacToeButton9.Text) && (ticTacToeButton3.Text != ""))
+            else if ((ticTacToeButton3.Text == ticTacToeButton6.Text) && (ticTacToeButton6.Text == ticTacToeButton9.Text) && (ticTacToeButton3.Text != ""))
             {
                 this.makeWinButtons(ticTacToeButton3, ticTacToeButton6, ticTacToeButton9);
                 if (((ticTacToeButton3.Text == "X") && (ticTacToeButton6.Text == "X") && (ticTacToeButton9.Text == "X")) || ((ticTacToeButton3.Text == "O") && (ticTacToeButton6.Text == "O") && (ticTacToeButton9.Text == "O")))
@@ -199,7 +203,7 @@ namespace Tic_tac_toe
         }
         private void winnerMessageBox()
         {
-            System.Windows.Forms.MessageBox.Show("The winner is:  " + this.controller.getInitialPlayerSign() + " ! ");
+            System.Windows.Forms.MessageBox.Show("The winner is: " + this.controller.getPlayerSign() + " ! ");
         }
         private void drawMessageBox()
         {
@@ -212,6 +216,16 @@ namespace Tic_tac_toe
                 this.makeDrawButtons();
                 this.drawMessageBox();
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void playerButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

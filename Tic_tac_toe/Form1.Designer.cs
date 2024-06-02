@@ -46,6 +46,7 @@
             button1 = new Button();
             panel5 = new Panel();
             reset = new Button();
+            playerButton = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel4.SuspendLayout();
@@ -56,6 +57,7 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.MenuHighlight;
+            panel1.Controls.Add(playerButton);
             panel1.Controls.Add(label1);
             panel1.Location = new Point(12, 12);
             panel1.Name = "panel1";
@@ -66,12 +68,13 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Black", 26F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(336, 15);
+            label1.Location = new Point(17, 15);
             label1.Name = "label1";
-            label1.Size = new Size(555, 70);
+            label1.Size = new Size(897, 70);
             label1.TabIndex = 12;
-            label1.Text = "TIC TAC TOE - GAME";
+            label1.Text = "TIC TAC TOE - GAME           MOVE :";
             label1.TextAlign = ContentAlignment.TopCenter;
+            label1.Click += label1_Click;
             // 
             // panel2
             // 
@@ -249,6 +252,16 @@
             reset.UseVisualStyleBackColor = true;
             reset.Click += buttonReset_Click;
             // 
+            // playerButton
+            // 
+            playerButton.Enabled = false;
+            playerButton.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            playerButton.Location = new Point(906, 15);
+            playerButton.Name = "playerButton";
+            playerButton.Size = new Size(112, 70);
+            playerButton.TabIndex = 14;
+            playerButton.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(144F, 144F);
@@ -296,5 +309,6 @@
         private Button button2;
         private Label label1;
         private Button reset;
+        private Button playerButton;
     }
 }
